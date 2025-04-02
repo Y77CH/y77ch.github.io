@@ -1,61 +1,101 @@
-primary_name: "Your Name"
-secondary_name: ""
-navbar_name: "Your Name"
+primary_name: "Yiwei Chen"
+# secondary_name: ""
+# navbar_name: "Your Name"
 
-positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-  name: Position 1 with logo
-- name: Position 2 without logo
+# positions:
+# - logo: /assets/images/badges/cmu.png  # Logo is optional
+#   name: M.S. in ECE
 
 
-email: "your@email.com"
+email: "yiweiche@andrew.cmu.edu"
 # cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
+# gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
+# github: your_github_id
+# twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
+linkedin: yiwei-chen-7674a31ab
 # orcid: 0000-0000-0000-0000
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am a graduate student in the Department of Electrical and Computer Engineering at Carnegie Mellon University, fortunately working with Prof. Greg Ganger in Parallel Data Lab and Prof. Zhihao Jia in Catalyst Group.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    My research focuses on exploring ways to enhance <strong>scalability</strong>, <strong>performance</strong>, and <strong>efficiency</strong> of large scale <strong>data-centric</strong> applications from both systems and algorithms perspective.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Photo credit to my lovely girlfriend, Lin ❤️.
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
+- name: Carnegie Mellon University
+  logo: /assets/images/badges/cmu.jpg
   position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+    Department of Electrical and Computer Engineering<br/>
+    Master of Science in Electrical and Computer Engineering
+  date: Jan. 2025 - present
+- name: University of Wisconsin-Madison
+  logo: /assets/images/badges/uwm.jpg
+  position: Bachelor of Science in Computer Science
+  date: Sep. 2022 - Jul. 2024
+- name: University of Waterloo
+  logo: /assets/images/badges/uw.png
+  position: Bachelor of Mathematics in Combinatorics & Optimization
+  date: Sep. 2020 - Jul. 2022
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: Carnegie Mellon University
+  logo: /assets/images/badges/cmu.jpg
+  position: Research Staff -> Graduate Student Research Assistant
+  date: Sept. 2024 - present
+- name: Microsoft Research
+  logo: /assets/images/badges/ms.png
+  position: Research Intern
+  date: May 2024 - Aug. 2024
+- name: University of Wisconsin-Madison
+  logo: /assets/images/badges/uwm.jpg
+  position: Undergraduate Student Research Assistant 
+  date: Jan. 2023 - May 2024
+- name: Google
+  logo: /assets/images/badges/google.jpg
+  position: Software Engineer Intern
+  date: Jan. 2022 - April. 2022
+- name: Ford Motor
+  logo: /assets/images/badges/ford.jpg
+  position: Media & USB Infotainment Developer Intern
+  date: Sep. 2021 - Dec. 2021
 
-awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+# awards:
+# - name: Award Name 2
+#   date: 2024
+# - name: Award Name 1 
+#   date: 2021
+# - name: A quick brown fox jumps over the lazy dog and runs away award
+#   date: 2021
+
+experience_description: >-
+  <p>
+  My journey began with operating systems internals. At Ford, I implemented product designs by customizing Android. Later at Google , I focused on makiing this customization smooth, unified and secure.
+  </p>
+  <p>
+  After transferring to UW-Madison, my focus has shifted to systems research, specifically, distributed systems research, as I became more interested in the challenges of scale and coordination across machines.
+  </p>
+  <p>
+  My systems researches are primarily about <strong>bandwidth</strong> issues in modern data-intensive applications. 
+  At UW-Madison, I worked on ways to make consensus protocols bandwidth-adaptive, advised by <a href="https://pages.cs.wisc.edu/~remzi/">Prof. Remzi Arpaci-Dusseau</a> and <a href="https://pages.cs.wisc.edu/~dusseau/">Prof. Andrea Arpaci-Dusseau</a>. 
+  Currently, I’m working with <a href="https://users.ece.cmu.edu/~ganger/">Prof. Greg Ganger</a>  at Carnegie Mellon University’s  <a href="https://www.pdl.cmu.edu/index.shtml">Parallel Data Lab</a> , where I contribute to re-designing IO interfaces in data center file systems to better utilize bandwidth. 
+  </p>
+  <p>
+  Building on this systems foundation, I have also explored problems at the intersection between systems and machine learning.
+  </p>
+  <p>
+  On the machine learning side, I was working on improving LLMs’ <strong>planning</strong> and <strong>tool use</strong> abilities in software engineering and infra ops domains at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a>, fortunately supervised by  <a href="https://www.microsoft.com/en-us/research/people/xuafeng/">Dr. Xuan Feng</a> and <a href="https://www.microsoft.com/en-us/research/people/samehe/">Dr. Sameh Elnikety</a>.
+  </p>
+  <p>
+  Currently, I’m also collaborating with <a href="https://www.cs.cmu.edu/~zhihaoj2/">Prof. Zhihao Jia</a> at Carnegie Mellon University’s  <a href="https://catalyst.cs.cmu.edu">Catalyst Group</a> <a href="https://catalyst.cs.cmu.edu"> </a>about improving LLM' inference with sparse attention. 
+  We are taking an end-to-end approach -- optimize LLMs’ inference from model structure to kernel implementations.
+  </p>
