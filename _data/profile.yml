@@ -79,10 +79,10 @@ experience:
 
 experience_description: >-
   <p>
-  My journey began with operating systems internals. At Ford, I implemented product designs by customizing Android. Later at Google , I focused on makiing this customization smooth, unified and secure.
-  </p>
-  <p>
-  After transferring to UW-Madison, my focus has shifted to systems research, specifically, distributed systems research, as I became more interested in the challenges of scale and coordination across machines.
+  My journey began with operating systems internals. 
+  I started by working at Ford, where I customized Android system components relevant to multi-media and USB. 
+  Later at Google, I contributed to designing a unified customization interface for OEMs to make such modifications more smoothly and securely.
+  After transferring to UW-Madison, I started to focus on systems research.
   </p>
   <p>
   My systems researches are primarily about <strong>bandwidth</strong> issues in modern data-intensive applications. 
